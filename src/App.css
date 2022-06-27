@@ -1,8 +1,18 @@
 .App {
-  padding: 30px;
-  display: flex;
+    padding: 30px;
+    display: flex;
 }
 
 .App > div {
-  margin-right: 50px;
+    margin-right: 50px;
+}
+
+.is-done {
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.active-button {
+    background-color: aqua;
+    color: white;
 }
